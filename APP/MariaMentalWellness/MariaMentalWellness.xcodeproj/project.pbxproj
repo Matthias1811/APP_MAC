@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397EDBB72F3E424E0045D5D3 /* MariaMentalWellnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EDBB62F3E424E0045D5D3 /* MariaMentalWellnessApp.swift */; };
+		397EDBB92F3E424E0045D5D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EDBB82F3E424E0045D5D3 /* ContentView.swift */; };
+		397EDBBB2F3E42690045D5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397EDBBA2F3E42690045D5D3 /* Assets.xcassets */; };
+		397EDBBE2F3E42690045D5D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397EDBBD2F3E42690045D5D3 /* Preview Assets.xcassets */; };
+		397EDBC92F3E426A0045D5D3 /* MariaMentalWellnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EDBC82F3E426A0045D5D3 /* MariaMentalWellnessTests.swift */; };
+		397EDBD42F3E426A0045D5D3 /* MariaMentalWellnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EDBD32F3E426A0045D5D3 /* MariaMentalWellnessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		397EDBC52F3E426A0045D5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397EDBAB2F3E424E0045D5D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397EDBB22F3E424E0045D5D3;
+			remoteInfo = MariaMentalWellness;
+		};
+		397EDBD02F3E426A0045D5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397EDBAB2F3E424E0045D5D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397EDBB22F3E424E0045D5D3;
+			remoteInfo = MariaMentalWellness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		397EDBB32F3E424E0045D5D3 /* MariaMentalWellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MariaMentalWellness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397EDBB62F3E424E0045D5D3 /* MariaMentalWellnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariaMentalWellnessApp.swift; sourceTree = "<group>"; };
+		397EDBB82F3E424E0045D5D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		397EDBBA2F3E42690045D5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		397EDBBD2F3E42690045D5D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		397EDBBF2F3E42690045D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397EDBC42F3E426A0045D5D3 /* MariaMentalWellnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MariaMentalWellnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		397EDBC82F3E426A0045D5D3 /* MariaMentalWellnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariaMentalWellnessTests.swift; sourceTree = "<group>"; };
+		397EDBCA2F3E426A0045D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397EDBCF2F3E426A0045D5D3 /* MariaMentalWellnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MariaMentalWellnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		397EDBD32F3E426A0045D5D3 /* MariaMentalWellnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariaMentalWellnessUITests.swift; sourceTree = "<group>"; };
+		397EDBD52F3E426A0045D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397EDBB02F3E424E0045D5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397EDBC12F3E426A0045D5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397EDBCC2F3E426A0045D5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		397EDBAA2F3E424E0045D5D3 = {
+			isa = PBXGroup;
+			children = (
+				397EDBB52F3E424E0045D5D3 /* MariaMentalWellness */,
+				397EDBC72F3E426A0045D5D3 /* MariaMentalWellnessTests */,
+				397EDBD22F3E426A0045D5D3 /* MariaMentalWellnessUITests */,
+				397EDBB42F3E424E0045D5D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		397EDBB42F3E424E0045D5D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				397EDBB32F3E424E0045D5D3 /* MariaMentalWellness.app */,
+				397EDBC42F3E426A0045D5D3 /* MariaMentalWellnessTests.xctest */,
+				397EDBCF2F3E426A0045D5D3 /* MariaMentalWellnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		397EDBB52F3E424E0045D5D3 /* MariaMentalWellness */ = {
+			isa = PBXGroup;
+			children = (
+				397EDBB62F3E424E0045D5D3 /* MariaMentalWellnessApp.swift */,
+				397EDBB82F3E424E0045D5D3 /* ContentView.swift */,
+				397EDBBA2F3E42690045D5D3 /* Assets.xcassets */,
+				397EDBBF2F3E42690045D5D3 /* Info.plist */,
+				397EDBBC2F3E42690045D5D3 /* Preview Content */,
+			);
+			path = MariaMentalWellness;
+			sourceTree = "<group>";
+		};
+		397EDBBC2F3E42690045D5D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				397EDBBD2F3E42690045D5D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		397EDBC72F3E426A0045D5D3 /* MariaMentalWellnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				397EDBC82F3E426A0045D5D3 /* MariaMentalWellnessTests.swift */,
+				397EDBCA2F3E426A0045D5D3 /* Info.plist */,
+			);
+			path = MariaMentalWellnessTests;
+			sourceTree = "<group>";
+		};
+		397EDBD22F3E426A0045D5D3 /* MariaMentalWellnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				397EDBD32F3E426A0045D5D3 /* MariaMentalWellnessUITests.swift */,
+				397EDBD52F3E426A0045D5D3 /* Info.plist */,
+			);
+			path = MariaMentalWellnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		397EDBB22F3E424E0045D5D3 /* MariaMentalWellness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397EDBD82F3E426A0045D5D3 /* Build configuration list for PBXNativeTarget "MariaMentalWellness" */;
+			buildPhases = (
+				397EDBAF2F3E424E0045D5D3 /* Sources */,
+				397EDBB02F3E424E0045D5D3 /* Frameworks */,
+				397EDBB12F3E424E0045D5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MariaMentalWellness;
+			productName = MariaMentalWellness;
+			productReference = 397EDBB32F3E424E0045D5D3 /* MariaMentalWellness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		397EDBC32F3E426A0045D5D3 /* MariaMentalWellnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397EDBDB2F3E426A0045D5D3 /* Build configuration list for PBXNativeTarget "MariaMentalWellnessTests" */;
+			buildPhases = (
+				397EDBC02F3E426A0045D5D3 /* Sources */,
+				397EDBC12F3E426A0045D5D3 /* Frameworks */,
+				397EDBC22F3E426A0045D5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397EDBC62F3E426A0045D5D3 /* PBXTargetDependency */,
+			);
+			name = MariaMentalWellnessTests;
+			productName = MariaMentalWellnessTests;
+			productReference = 397EDBC42F3E426A0045D5D3 /* MariaMentalWellnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		397EDBCE2F3E426A0045D5D3 /* MariaMentalWellnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397EDBDE2F3E426A0045D5D3 /* Build configuration list for PBXNativeTarget "MariaMentalWellnessUITests" */;
+			buildPhases = (
+				397EDBCB2F3E426A0045D5D3 /* Sources */,
+				397EDBCC2F3E426A0045D5D3 /* Frameworks */,
+				397EDBCD2F3E426A0045D5D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397EDBD12F3E426A0045D5D3 /* PBXTargetDependency */,
+			);
+			name = MariaMentalWellnessUITests;
+			productName = MariaMentalWellnessUITests;
+			productReference = 397EDBCF2F3E426A0045D5D3 /* MariaMentalWellnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		397EDBAB2F3E424E0045D5D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					397EDBB22F3E424E0045D5D3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					397EDBC32F3E426A0045D5D3 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 397EDBB22F3E424E0045D5D3;
+					};
+					397EDBCE2F3E426A0045D5D3 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 397EDBB22F3E424E0045D5D3;
+					};
+				};
+			};
+			buildConfigurationList = 397EDBAE2F3E424E0045D5D3 /* Build configuration list for PBXProject "MariaMentalWellness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 397EDBAA2F3E424E0045D5D3;
+			productRefGroup = 397EDBB42F3E424E0045D5D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397EDBB22F3E424E0045D5D3 /* MariaMentalWellness */,
+				397EDBC32F3E426A0045D5D3 /* MariaMentalWellnessTests */,
+				397EDBCE2F3E426A0045D5D3 /* MariaMentalWellnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		397EDBB12F3E424E0045D5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397EDBBE2F3E42690045D5D3 /* Preview Assets.xcassets in Resources */,
+				397EDBBB2F3E42690045D5D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397EDBC22F3E426A0045D5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397EDBCD2F3E426A0045D5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397EDBAF2F3E424E0045D5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397EDBB92F3E424E0045D5D3 /* ContentView.swift in Sources */,
+				397EDBB72F3E424E0045D5D3 /* MariaMentalWellnessApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397EDBC02F3E426A0045D5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397EDBC92F3E426A0045D5D3 /* MariaMentalWellnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397EDBCB2F3E426A0045D5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397EDBD42F3E426A0045D5D3 /* MariaMentalWellnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		397EDBC62F3E426A0045D5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397EDBB22F3E424E0045D5D3 /* MariaMentalWellness */;
+			targetProxy = 397EDBC52F3E426A0045D5D3 /* PBXContainerItemProxy */;
+		};
+		397EDBD12F3E426A0045D5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397EDBB22F3E424E0045D5D3 /* MariaMentalWellness */;
+			targetProxy = 397EDBD02F3E426A0045D5D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		397EDBD62F3E426A0045D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		397EDBD72F3E426A0045D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		397EDBD92F3E426A0045D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MariaMentalWellness/Preview Content\"";
+				DEVELOPMENT_TEAM = J8X24B4Z27;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MariaMentalWellness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthias.wellness.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		397EDBDA2F3E426A0045D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MariaMentalWellness/Preview Content\"";
+				DEVELOPMENT_TEAM = J8X24B4Z27;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MariaMentalWellness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthias.wellness.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		397EDBDC2F3E426A0045D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8X24B4Z27;
+				INFOPLIST_FILE = MariaMentalWellnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PU.MariaMentalWellnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MariaMentalWellness.app/MariaMentalWellness";
+			};
+			name = Debug;
+		};
+		397EDBDD2F3E426A0045D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8X24B4Z27;
+				INFOPLIST_FILE = MariaMentalWellnessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PU.MariaMentalWellnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MariaMentalWellness.app/MariaMentalWellness";
+			};
+			name = Release;
+		};
+		397EDBDF2F3E426A0045D5D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8X24B4Z27;
+				INFOPLIST_FILE = MariaMentalWellnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PU.MariaMentalWellnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MariaMentalWellness;
+			};
+			name = Debug;
+		};
+		397EDBE02F3E426A0045D5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8X24B4Z27;
+				INFOPLIST_FILE = MariaMentalWellnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PU.MariaMentalWellnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MariaMentalWellness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		397EDBAE2F3E424E0045D5D3 /* Build configuration list for PBXProject "MariaMentalWellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397EDBD62F3E426A0045D5D3 /* Debug */,
+				397EDBD72F3E426A0045D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397EDBD82F3E426A0045D5D3 /* Build configuration list for PBXNativeTarget "MariaMentalWellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397EDBD92F3E426A0045D5D3 /* Debug */,
+				397EDBDA2F3E426A0045D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397EDBDB2F3E426A0045D5D3 /* Build configuration list for PBXNativeTarget "MariaMentalWellnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397EDBDC2F3E426A0045D5D3 /* Debug */,
+				397EDBDD2F3E426A0045D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397EDBDE2F3E426A0045D5D3 /* Build configuration list for PBXNativeTarget "MariaMentalWellnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397EDBDF2F3E426A0045D5D3 /* Debug */,
+				397EDBE02F3E426A0045D5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 397EDBAB2F3E424E0045D5D3 /* Project object */;
+}
